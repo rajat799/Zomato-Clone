@@ -7,7 +7,7 @@
     height: 450px;
     background-image: url("bg_image-nav.png");
     background-size: cover;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
 }
 
@@ -19,6 +19,7 @@
     padding: 25px;
     text-decoration:double;
     height: 40px;
+    
 }
 
 
@@ -30,18 +31,43 @@ a{
 #left-nav{
     display: flex;
     width: 600px;
+    padding-left: 70px;
+    font-size: 15px;
+
 }
 
 .right-nav{
-    width: 130px;
+    width: 150px;
     display: flex;
     justify-content:space-evenly;
     padding-right: 50px;
+    font-size: 20px;
+}
+
+.logo{
+    display: block;
+    align-items: center;
+    justify-items: center;
+    /* display: inline-block; */
+
+}
+
+.logo img{
+    display: block;
+    height: 60px;
+    width: 300px;
+    padding-top: 30px;
+    margin: 0 auto;
+
 }
 
 
-.logo{
-    height: 200px;
-    background-image: url("logo-nav.png");
-
+.msg{
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 100px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
 }
