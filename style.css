@@ -22,9 +22,8 @@
 }
 
 
-
 a{
-    text-decoration: none;
+    text-decoration: none;  
     color: white;
 }
 
@@ -40,3 +39,9 @@ a{
     padding-right: 50px;
 }
 
+
+.logo{
+    height: 200px;
+    background-image: url("logo-nav.png");
+
+}
